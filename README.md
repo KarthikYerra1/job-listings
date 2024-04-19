@@ -1,6 +1,6 @@
 # Frontend Mentor - Job listings with filtering solution
 
-This is a solution to the [Job listings with filtering challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt).  
+This is a solution to the [Job listings with filtering challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt).
 
 ## Table of contents
 
@@ -41,22 +41,13 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - [Vite](https://vitejs.dev/) - package bundler
 
-
 ### What I learned
 
-I have wrote the below code 10 times in different ways. Still not satisfied with code size. Earlier codes was too long and after taking all constraints into one place, I have slowly wrote the below code which improves time complexity as well as space complexity.
+I have written the below code 10 times in different ways. Still not satisfied with code size. Earlier codes was too long and after taking all constraints into one place, I have slowly wrote the below code which improves time complexity as well as space complexity.
 
 ```js
  const filterData = (skills) => {
-    let newData = data.filter((item) => {
-      return skills.every((skill) => {
-        return (
-          item.languages.includes(skill) ||
-          item.role === skill ||
-          item.level === skill ||
-          item.tools.includes(skill)
-        );
-      });
+    {/* Code goes here */}
     });
     setJobsData(newData);
   };
@@ -66,4 +57,3 @@ I have wrote the below code 10 times in different ways. Still not satisfied with
 
 - Website - [KarthikYerra](#)
 - Frontend Mentor - [@KarthikYerra1](https://www.frontendmentor.io/profile/karthikyerra1)
-
